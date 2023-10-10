@@ -1,5 +1,15 @@
+import { MyImage } from "./_components/MyImage";
+import { MyDescription } from "./_components/MyDescription";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <main className="p-16 my-auto">
+      <div className="flex">
+        <div className="flex-1 my-auto">
+          <MyDescription />
+        </div>
+        <MyImage />
+      </div>
+    </main>
   );
 }
