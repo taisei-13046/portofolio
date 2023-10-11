@@ -4,7 +4,7 @@ import { Header } from "./_components/Header";
 import { Provider } from "./provider";
 
 export const metadata: Metadata = {
-  title: "ytaisei's Home Page",
+  title: "ytaisei's Blog",
   description: "Welcome to my portofolio!",
 };
 

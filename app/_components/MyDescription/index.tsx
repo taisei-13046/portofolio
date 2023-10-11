@@ -9,7 +9,7 @@ export const MyDescription = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <p className="text-3xl">
+      <p className="lg:text-3xl">
         The Web Application Enginner.
         <br />
         <br />

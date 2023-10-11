@@ -8,7 +8,9 @@ export const Header = () => {
       <Link href="/">
         <h2 className="text-2xl">{"ytaisei's Blog"}</h2>
       </Link>
-      <Menu />
+      <div className="hidden lg:flex">
+        <Menu />
+      </div>
       <ModeToggle />
     </nav>
   );
