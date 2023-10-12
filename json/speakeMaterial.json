@@ -1,20 +1,20 @@
 {
   "contents": [
     {
-      "title": "OpenAPIコード生成ライブラリを 『Orval』に移行した理由",
-      "url": "https://speakerdeck.com/player/5f22b97303ae44e8955a43b5dbb3fc5e"
-    },
-    {
-      "title": "アウトプットが与える影響 〜価値を最大化するための学習サイクル〜",
-      "url": "https://speakerdeck.com/player/38e2c7d138db4e28b572bfdc74249d3b"
+      "title": "【2023】SWR  vs  TanStack Query",
+      "url": "https://speakerdeck.com/player/1a1c9cb409c8436e8c0ca074d26b2eb0"
     },
     {
       "title": "React Queryは非同期の状態管理ライブラリだ",
       "url": "https://speakerdeck.com/player/9b01669f1b534d5ba87ec14f98924379"
     },
     {
-      "title": "【2023】SWR  vs  TanStack Query",
-      "url": "https://speakerdeck.com/player/1a1c9cb409c8436e8c0ca074d26b2eb0"
+      "title": "アウトプットが与える影響 〜価値を最大化するための学習サイクル〜",
+      "url": "https://speakerdeck.com/player/38e2c7d138db4e28b572bfdc74249d3b"
+    },
+    {
+      "title": "OpenAPIコード生成ライブラリを 『Orval』に移行した理由",
+      "url": "https://speakerdeck.com/player/5f22b97303ae44e8955a43b5dbb3fc5e"
     }
   ]
 }

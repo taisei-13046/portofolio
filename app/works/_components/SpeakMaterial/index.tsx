@@ -20,7 +20,9 @@ export const SpeakeMaterial = ({ title, url }: Props) => {
         className="rounded-lg shadow-xl w-full h-auto aspect-[560/315]"
         data-ratio="1.7777777777777777"
       />
-      <p className="text-xl font-bold">{title}</p>
+      <a className="text-xl font-bold" href={url}>
+        {title}
+      </a>
     </motion.div>
   );
 };
