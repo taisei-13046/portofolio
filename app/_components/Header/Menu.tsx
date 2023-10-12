@@ -16,21 +16,21 @@ export function Menu() {
     <NavigationMenu>
       <NavigationMenuList className="gap-12">
         <NavigationMenuItem>
-          <Link href="/blog" legacyBehavior passHref>
+          <Link href="/blogs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Blog
+              Blogs
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/work" legacyBehavior passHref>
+          <Link href="/works" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Works
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/skill" legacyBehavior passHref>
+          <Link href="/skills" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Skills
             </NavigationMenuLink>
