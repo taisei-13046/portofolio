@@ -3,7 +3,7 @@ import json from "@/json/contents.json";
 
 export default function Blogs() {
   return (
-    <main className="p-8 lg:p-16 pb-0 my-auto">
+    <main className="pt-8 lg:p-16 pb-0 my-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {json.contents.map(({ title, date, url }, i) => (
           <div key={i} className="h-full">
