@@ -22,26 +22,18 @@ export const Dropdown = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem>
-          <Link href="/blogs" legacyBehavior passHref>
-            Blogs
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/works" legacyBehavior passHref>
-            Works
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/skills" legacyBehavior passHref>
-            Skills
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="/about" legacyBehavior passHref>
-            About
-          </Link>
-        </DropdownMenuItem>
+        <Link href="/blogs" legacyBehavior passHref>
+          <DropdownMenuItem>Blogs</DropdownMenuItem>
+        </Link>
+        <Link href="/works" legacyBehavior passHref>
+          <DropdownMenuItem>Works</DropdownMenuItem>
+        </Link>
+        <Link href="/skills" legacyBehavior passHref>
+          <DropdownMenuItem>Skills</DropdownMenuItem>
+        </Link>
+        <Link href="/about" legacyBehavior passHref>
+          <DropdownMenuItem>About</DropdownMenuItem>
+        </Link>
       </DropdownMenuContent>
     </DropdownMenu>
   );
