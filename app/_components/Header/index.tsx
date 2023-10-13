@@ -1,6 +1,7 @@
 import { ModeToggle } from "@/components/ModeToggle";
 import { Menu } from "./Menu";
 import Link from "next/link";
+import { Dropdown } from "./Dropdown";
 
 export const Header = () => {
   return (
@@ -11,7 +12,13 @@ export const Header = () => {
       <div className="hidden lg:flex">
         <Menu />
       </div>
-      <ModeToggle />
+      <div className="flex gap-2 lg:hidden">
+        <Dropdown />
+        <ModeToggle />
+      </div>
+      <div className="hidden lg:flex">
+        <ModeToggle />
+      </div>
     </nav>
   );
 };
