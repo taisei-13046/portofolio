@@ -2,6 +2,7 @@ import { ModeToggle } from "@/components/ModeToggle";
 import { Menu } from "./Menu";
 import Link from "next/link";
 import { Dropdown } from "./Dropdown";
+import { SNSIcon } from "../SNSIcon";
 
 export const Header = () => {
   return (
@@ -16,7 +17,11 @@ export const Header = () => {
         <Dropdown />
         <ModeToggle />
       </div>
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex gap-12">
+        <div className="flex gap-3">
+          <SNSIcon src="github" url="https://github.com/taisei-13046" />
+          <SNSIcon src="x" url="https://twitter.com/ytaisei_" />
+        </div>
         <ModeToggle />
       </div>
     </nav>
