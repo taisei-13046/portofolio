@@ -57,7 +57,7 @@ export const chartData: Record<string, ChartData[]> = {
     },
     {
       skill: "CSS Modules",
-      val: 100,
+      val: 80,
       fullMark: 100,
     },
     {
@@ -88,8 +88,8 @@ export const chartData: Record<string, ChartData[]> = {
       fullMark: 100,
     },
     {
-      skill: "Playwright",
-      val: 40,
+      skill: "Storybook",
+      val: 80,
       fullMark: 100,
     },
   ],
