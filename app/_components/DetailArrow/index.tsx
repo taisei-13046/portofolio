@@ -1,6 +1,7 @@
 "use client";
 import { ArrowIcon } from "@/components/icons/ArrowIcon";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {
   onClick?: () => void;
@@ -15,10 +16,10 @@ export const DetailArrow = ({ onClick }: Props) => {
       transition={{ duration: 1.2 }}
       onClick={onClick}
     >
-      <div className="flex gap-3 items-center cursor-pointer">
+      <Link href="/about" className="flex gap-3 items-center cursor-pointer">
         <p className="text-2xl">More Details</p>
         <ArrowIcon />
-      </div>
+      </Link>
     </motion.div>
   );
 };

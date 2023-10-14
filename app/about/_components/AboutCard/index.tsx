@@ -17,6 +17,7 @@ export const AboutCard = ({ title, content, date, image }: Props) => {
       initial={{ opacity: 0, scale: 1.3 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
+      whileHover={{ scale: 1.1 }}
     >
       <Card className="p-3 grid grid-cols-1 lg:grid-cols-3">
         <Image
@@ -24,7 +25,7 @@ export const AboutCard = ({ title, content, date, image }: Props) => {
           width={150}
           height={150}
           alt="Picture of the author"
-          className="rounded-2xl shadow-2xl mx-auto lg:mr-auto lg:ml-2"
+          className="rounded-2xl shadow-2xl m-auto lg:mr-auto lg:ml-2"
         />
         <div className="col-span-2">
           <CardContent className="pt-6 flex flex-col lg:flex-row items-center gap-6">
