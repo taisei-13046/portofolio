@@ -3,8 +3,8 @@ import { aboutData } from "./data";
 
 export default function About() {
   return (
-    <main className="p-8 lg:p-16 pb-0 my-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-x-12">
+    <main className="pt-8 lg:p-16 pb-0 my-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-y-6 gap-x-12 lg:gap-y-0">
         {aboutData.map(({ title, content, date, image }, i) => (
           <>
             <AboutCard
