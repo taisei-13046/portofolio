@@ -89,7 +89,7 @@ export const chartData: Record<string, ChartData[]> = {
     },
     {
       skill: "Storybook",
-      val: 80,
+      val: 70,
       fullMark: 100,
     },
   ],
@@ -120,20 +120,30 @@ export const chartData: Record<string, ChartData[]> = {
       fullMark: 100,
     },
   ],
-  Output: [
+  "Go Package": [
     {
-      skill: "Zenn",
-      val: 95,
+      skill: "Gin",
+      val: 50,
       fullMark: 100,
     },
     {
-      skill: "Qiita",
-      val: 90,
+      skill: "Echo",
+      val: 55,
       fullMark: 100,
     },
     {
-      skill: "Tech Event",
-      val: 70,
+      skill: "sqlc",
+      val: 45,
+      fullMark: 100,
+    },
+    {
+      skill: "sqlx",
+      val: 30,
+      fullMark: 100,
+    },
+    {
+      skill: "sqlboiler",
+      val: 35,
       fullMark: 100,
     },
   ],

@@ -14,6 +14,13 @@ export const aboutData = [
     image: "42.webp",
   },
   {
+    title: "株式会社Shinonome",
+    content:
+      "ShinonomeコミュニティのPlaygroundに加入。12月からフロントエンドとして初案件に参加し実務経験を積んだ。",
+    date: "2022/7",
+    image: "shinonome.webp",
+  },
+  {
     title: "技育展2022優秀賞",
     content:
       "技育展にて優秀賞を受賞。「ぺあプロ！」というペアプログラミングのためのマッチングサービスを作成。",
