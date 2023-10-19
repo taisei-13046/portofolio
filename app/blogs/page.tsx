@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import { PostCard } from "./_components/PostCard";
 import json from "@/json/contents.json";
+
+export const metadata: Metadata = {
+  title: "Blogs | ytaisei's Blog",
+  description: "My blog list",
+};
 
 export default function Blogs() {
   return (

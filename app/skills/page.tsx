@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import { SkillCharts } from "./_components/SkillChart";
 import { chartData } from "./data";
+
+export const metadata: Metadata = {
+  title: "Skills | ytaisei's Blog",
+  description: "My specialized capabilities",
+};
 
 export default function Skills() {
   return (

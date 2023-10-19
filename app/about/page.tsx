@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import { AboutCard } from "./_components/AboutCard";
 import { aboutData } from "./data";
+
+export const metadata: Metadata = {
+  title: "About | ytaisei's Blog",
+  description: "My personal history",
+};
 
 export default function About() {
   return (

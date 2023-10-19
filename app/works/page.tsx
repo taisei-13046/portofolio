@@ -1,5 +1,11 @@
 import json from "@/json/speakeMaterial.json";
 import { SpeakeMaterial } from "./_components/SpeakMaterial";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Works | ytaisei's Blog",
+  description: "My enginner's works",
+};
 
 export default function Works() {
   return (

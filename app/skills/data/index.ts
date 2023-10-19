@@ -5,145 +5,155 @@ type ChartData = {
 };
 
 export const chartData: Record<string, ChartData[]> = {
-  Frontend: [
+  All: [
     {
-      skill: "TypeScript",
-      val: 95,
+      skill: "Git",
+      val: 90,
       fullMark: 100,
     },
     {
-      skill: "React",
-      val: 100,
-      fullMark: 100,
-    },
-    {
-      skill: "Next.js",
-      val: 40,
-      fullMark: 100,
-    },
-    {
-      skill: "HTML",
+      skill: "Docker",
       val: 70,
       fullMark: 100,
     },
     {
-      skill: "CSS",
-      val: 75,
+      skill: "Linux",
+      val: 50,
+      fullMark: 100,
+    },
+    {
+      skill: "VSCode",
+      val: 80,
+      fullMark: 100,
+    },
+    {
+      skill: "Vim",
+      val: 70,
       fullMark: 100,
     },
   ],
-  "React State Library": [
+  Frontend: [
+    {
+      skill: "JavaScript",
+      val: 90,
+      fullMark: 100,
+    },
+    {
+      skill: "TypeScript",
+      val: 70,
+      fullMark: 100,
+    },
+    {
+      skill: "React",
+      val: 90,
+      fullMark: 100,
+    },
+    {
+      skill: "HTML",
+      val: 80,
+      fullMark: 100,
+    },
+    {
+      skill: "CSS",
+      val: 80,
+      fullMark: 100,
+    },
+  ],
+  "React Framework": [
+    {
+      skill: "Next.js",
+      val: 70,
+      fullMark: 100,
+    },
+    {
+      skill: "Remix",
+      val: 80,
+      fullMark: 100,
+    },
+    {
+      skill: "Gatsby",
+      val: 40,
+      fullMark: 100,
+    },
+  ],
+  "React Library": [
     {
       skill: "React Query",
       val: 100,
       fullMark: 100,
     },
     {
-      skill: "SWR",
+      skill: "React Router",
       val: 70,
       fullMark: 100,
     },
     {
-      skill: "Redux",
+      skill: "React Hook Form",
+      val: 70,
+      fullMark: 100,
+    },
+    {
+      skill: "Recharts",
       val: 60,
-      fullMark: 100,
-    },
-  ],
-  "React CSS Library": [
-    {
-      skill: "Tailwind",
-      val: 70,
-      fullMark: 100,
-    },
-    {
-      skill: "CSS Modules",
-      val: 80,
       fullMark: 100,
     },
     {
       skill: "Emotion",
-      val: 90,
+      val: 70,
       fullMark: 100,
     },
   ],
-  "React Test Library": [
+  XaaS: [
     {
-      skill: "Jest",
-      val: 70,
-      fullMark: 100,
-    },
-    {
-      skill: "Vitest",
+      skill: "Firebase",
       val: 60,
       fullMark: 100,
     },
     {
-      skill: "Testing-Library",
+      skill: "Shopify",
+      val: 80,
+      fullMark: 100,
+    },
+    {
+      skill: "Twilio",
       val: 70,
       fullMark: 100,
     },
     {
-      skill: "Cypress",
-      val: 60,
+      skill: "MicroCMS",
+      val: 90,
       fullMark: 100,
     },
     {
-      skill: "Storybook",
-      val: 70,
+      skill: "Contentful",
+      val: 90,
       fullMark: 100,
     },
   ],
   Backend: [
     {
       skill: "Go",
-      val: 50,
-      fullMark: 100,
-    },
-    {
-      skill: "Docker",
-      val: 40,
-      fullMark: 100,
-    },
-    {
-      skill: "SQL",
-      val: 40,
-      fullMark: 100,
-    },
-    {
-      skill: "gRPC",
-      val: 30,
-      fullMark: 100,
-    },
-    {
-      skill: "HTTP",
-      val: 35,
-      fullMark: 100,
-    },
-  ],
-  "Go Package": [
-    {
-      skill: "Gin",
-      val: 50,
-      fullMark: 100,
-    },
-    {
-      skill: "Echo",
-      val: 55,
-      fullMark: 100,
-    },
-    {
-      skill: "sqlc",
       val: 45,
       fullMark: 100,
     },
     {
-      skill: "sqlx",
+      skill: "SQL",
+      val: 50,
+      fullMark: 100,
+    },
+    {
+      skill: "DB",
       val: 30,
       fullMark: 100,
     },
     {
-      skill: "sqlboiler",
-      val: 35,
+      skill: "GCP",
+      val: 30,
+      fullMark: 100,
+    },
+    {
+      skill: "AWS",
+      val: 30,
       fullMark: 100,
     },
   ],
