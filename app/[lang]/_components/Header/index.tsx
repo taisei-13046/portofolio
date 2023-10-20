@@ -3,8 +3,9 @@ import { Menu } from "./Menu";
 import Link from "next/link";
 import { Dropdown } from "./Dropdown";
 import { SNSIcon } from "../SNSIcon";
+import { LangToggle } from "../LangToggle";
 
-export const Header = () => {
+export const Header = ({ lang }: { lang: string }) => {
   return (
     <nav className="flex justify-between align-middle">
       <Link href="/">
@@ -22,7 +23,10 @@ export const Header = () => {
           <SNSIcon src="github" url="https://github.com/taisei-13046" />
           <SNSIcon src="x" url="https://twitter.com/ytaisei_" />
         </div>
-        <ModeToggle />
+        <div className="flex gap-3">
+          <LangToggle lang={lang} />
+          <ModeToggle />
+        </div>
       </div>
     </nav>
   );
