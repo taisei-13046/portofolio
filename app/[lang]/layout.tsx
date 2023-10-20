@@ -1,7 +1,11 @@
-import "./globals.css";
+import "../globals.css";
 import type { Metadata } from "next";
 import { Header } from "./_components/Header";
 import { Provider } from "./provider";
+
+export async function generateStaticParams() {
+  return [{ lang: "ja" }, { lang: "en" }];
+}
 
 export const metadata: Metadata = {
   title: "ytaisei's Blog",
@@ -10,14 +14,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { lang },
 }: {
   children: React.ReactNode;
+  params: { lang: string };
 }) {
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body className="bg-slate-100 dark:bg-slate-900 min-h-[100dvh] p-16 lg:pb-0">
         <Provider attribute="class">
-          <Header />
+          <Header lang={lang} />
           {children}
         </Provider>
       </body>
